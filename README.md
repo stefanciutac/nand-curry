@@ -1,6 +1,6 @@
 # nand-curry
 ## Project Overview
-`nand-curry` is an attempt to simulate an entire von Neumann computer (as detailed in the book 'But How Do It Knoww?') logically in Haskell, starting with only the definition of a single NAND gate as a pure function, then currying and composing functions defined in terms of that one NAND function to build an entire computer. A more complete introduction can be found at https://stefanciutac.github.io/stefanciutac_devlog/posts/nand-curry-introduction/.
+`nand-curry` is an attempt to simulate an entire von Neumann computer (as detailed in the book 'But How Do It Know?'—J Clark Scott) logically in Haskell, starting with only the definition of a single NAND gate as a pure function, then currying and composing functions defined in terms of that one NAND function to build an entire computer. A more complete introduction can be found at https://stefanciutac.github.io/stefanciutac_devlog/posts/nand-curry-introduction/.
 
 ## Documentation
 Comprehensive documentation of the design decisions made can be accessed at https://stefanciutac.github.io/stefanciutac_devlog/posts/.
