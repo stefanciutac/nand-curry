@@ -17,3 +17,4 @@ rwMem address byte s e prevState =
   ( head [memReg byte (isS address s across down) (isE address e across down) (prevState !! (across * down + across)) | across <- [0 .. 7], down <- [0 .. 7]],
     [if isS address s a d == False then prevState !! (a * d + a) else byte | a <- [0 .. 15], d <- [0 .. 15]]
   )
+
